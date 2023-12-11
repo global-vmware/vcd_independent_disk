@@ -1,4 +1,5 @@
 variable "vdc_org_name" {}
+variable "vdc_name" {}
 
 variable "disk_params" {
   description = "List of maps containing disk parameters. Each map item describes a single disk."

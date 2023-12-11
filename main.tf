@@ -10,6 +10,8 @@ terraform {
 }
 
 resource "vcd_independent_disk" "disk" {
+  org               = var.vdc_org_name
+  vdc               = var.vdc_name
   count             = length(var.disk_params)
   name              = var.disk_params[count.index]["name"]
   size_in_mb        = var.disk_params[count.index]["size_in_mb"]
