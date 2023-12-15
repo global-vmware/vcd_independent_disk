@@ -1,6 +1,6 @@
 # VCD Independent Disk Terraform Module
 
-This Terraform module will deploy VCD Independent Disks into an existing VMware Cloud Director (VCD) Environment.  This module can be used to provsion new Independent Disks into [Rackspace Technology SDDC Flex](https://www.rackspace.com/cloud/private/software-defined-data-center-flex) VCD Data Center Regions.
+This Terraform module will deploy VCD Independent Disks into an existing VMware Cloud Director (VCD) Environment.  This module can be used to provision new Independent Disks into [Rackspace Technology SDDC Flex](https://www.rackspace.com/cloud/private/software-defined-data-center-flex) VCD Data Center Regions.
 
 ## Requirements
 
